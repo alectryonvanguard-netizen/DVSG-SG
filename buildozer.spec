@@ -15,8 +15,8 @@ fullscreen = 0
 # Modern Android also uses NEARBY_WIFI_DEVICES.
 android.permissions = INTERNET,ACCESS_WIFI_STATE,CHANGE_WIFI_STATE,ACCESS_NETWORK_STATE,ACCESS_FINE_LOCATION,NEARBY_WIFI_DEVICES
 android.api = 35
-android.minapi = 23
-android.ndk = 27b
+android.minapi = 26
+android.ndk_api = 26
 android.accept_sdk_license = True
 android.debug_artifact = apk
 
