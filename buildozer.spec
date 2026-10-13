@@ -10,8 +10,8 @@ version = 1.0.0
 requirements = python3,kivy,pyjnius
 orientation = portrait
 fullscreen = 0
-icon.filename = icon.png
-icon.filename = icon.png
+icon.filename = %(source.dir)s/icon.png
+presplash.filename = %(source.dir)s/logo.png
 
 # Wi-Fi scan results require location permission on many Android versions.
 # Modern Android also uses NEARBY_WIFI_DEVICES.
